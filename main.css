@@ -10,6 +10,10 @@
     width: extend-to-zoom;
     zoom: 1.0;
 }
+body, html {
+  height: 100%;
+  display: grid;
+}
 
 body {
 	background:
@@ -49,6 +53,8 @@ a {
  .coder {
 
 
+  margin: auto;
+  text-align: center;
 
 
 		animation: cssload-breathe 8.05s ease infinite;
