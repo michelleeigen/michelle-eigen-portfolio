@@ -12,10 +12,10 @@
 }
 body, html {
   height: 100%;
-  display: grid;
+
 }
 
-body {
+html {
 	background:
     linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
 	url(cover.jpg);o-repeat center center fixed; 
@@ -26,15 +26,29 @@ body {
 
 	}
 
- .coder{
-	
+.coder:hover
+{
+ 
+  transform: scale(1.1);
+  position: center;
+    
+}
+
+.coder {
+
+    height: 80px;
 	font-family: courier new;
 	font-weight: medium;
 	color: white;
 	text-align: center;
 	font-size: 120px;
-	line-height: 600px;
-	margin-top: 150px;
+	position: relative;
+	margin-top: 20%;
+}
+.container{
+	
+	height: 160px;
+	margin: top 20%
 }
 
 .name {
@@ -42,136 +56,13 @@ body {
 	color: white;
 	font-size: 35px;
 	text-align: center; 
-	margin-bottom: 30px;
+	padding: 5px;
+	margin-top: 10%;
+
+
 }
 
 a {
  	color:white;
  	text-decoration: none;
  }
-
- .coder {
-
-
-  margin: auto;
-  text-align: center;
-
-
-		animation: cssload-breathe 8.05s ease infinite;
-		-o-animation: cssload-breathe 8.05s ease infinite;
-		-ms-animation: cssload-breathe 8.05s ease infinite;
-		-webkit-animation: cssload-breathe 8.05s ease infinite;
-		-moz-animation: cssload-breathe 8.05s ease infinite;
-		
-	
-}
-
-@keyframes cssload-breathe {
-	0% {
-		letter-spacing: 0
-		text-shadow: 0 0 1px white;
-	}
-	30% {
-		color: transparent;
-	}
-	50% {
-		letter-spacing: 47px;
-		font-size: 0;
-		text-shadow: 0 0 6px white;
-	}
-	60% {
-		color: transparent;
-	}
-	100% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-}
-
-@-o-keyframes cssload-breathe {
-	0% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-	30% {
-		color: transparent;
-	}
-	50% 8
-		letter-spacing: 47px;
-		font-size: 0;
-		text-shadow: 0 0 6px white;
-	}
-	60% {
-		color: transparent;
-	}
-	100% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-}
-
-@-ms-keyframes cssload-breathe {
-	0% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-	30% {
-		color: transparent;
-	}
-	50% {
-		letter-spacing: 47px;
-		font-size: 0;
-		text-shadow: 0 0 6px white;
-	}
-	60% {
-		color: transparent;
-	}
-	100% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-}
-
-@-webkit-keyframes cssload-breathe {
-	0% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-	30% {
-		color: transparent;
-	}
-	50% {
-		letter-spacing: 47px;
-		font-size: 0;
-		text-shadow: 0 0 6px white;
-	}
-	60% {
-		color: transparent;
-	}
-	100% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-}
-
-@-moz-keyframes cssload-breathe {
-	0% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-	30% {
-		color: transparent;
-	}
-	50% {
-		letter-spacing: 47px;
-		font-size: 0;
-		text-shadow: 0 0 6px white;
-	}
-	60% {
-		color: transparent;
-	}
-	100% {
-		letter-spacing: 0;
-		text-shadow: 0 0 1px white;
-	}
-}
