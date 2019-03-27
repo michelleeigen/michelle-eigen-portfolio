@@ -71,7 +71,7 @@ a {
 @keyframes cssload-breathe {
 	0% {
 		letter-spacing: 0
-		text-shadow: 0 0 1vw white;
+		
 	}
 	30% {
 		color: transparent;
@@ -79,21 +79,21 @@ a {
 	50% {
 		letter-spacing: 6vw;
 		font-size: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	60% {
 		color: transparent;
 	}
 	100% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 }
 
 @-o-keyframes cssload-breathe {
 	0% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	30% {
 		color: transparent;
@@ -101,21 +101,21 @@ a {
 	50% 8
 		letter-spacing: 5vw;
 		font-size: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	60% {
 		color: transparent;
 	}
 	100% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 }
 
 @-ms-keyframes cssload-breathe {
 	0% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	30% {
 		color: transparent;
@@ -123,21 +123,21 @@ a {
 	50% {
 		letter-spacing: 5vw;
 		font-size: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	60% {
 		color: transparent;
 	}
 	100% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+
 	}
 }
 
 @-webkit-keyframes cssload-breathe {
 	0% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	30% {
 		color: transparent;
@@ -145,21 +145,21 @@ a {
 	50% {
 		letter-spacing: 5vw;
 		font-size: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	60% {
 		color: transparent;
 	}
 	100% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 }
 
 @-moz-keyframes cssload-breathe {
 	0% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	30% {
 		color: transparent;
@@ -167,12 +167,12 @@ a {
 	50% {
 		letter-spacing: 6vw;
 		font-size: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
 	60% {
 		color: transparent;
 	}
 	100% {
 		letter-spacing: 0;
-		text-shadow: 0 0 1vw white;
+		
 	}
