@@ -38,6 +38,7 @@ a {
  .lines-container {
  	width: 100%;
  	height: 10%
+
  }
   .a-lines{
  	color:orange;
@@ -45,6 +46,7 @@ a {
  	float: right; top;
  	font-size: 4vw;
  	display: inline-block;
+	padding: 5px;
  }
  .a-lines:hover {
  	color: lightgrey;
@@ -59,11 +61,14 @@ a {
 .container-coder{
 	margin-top: 20%;
 	height: 15%;
+	width: 100%;
+	overflow:hidden;  
 }
 .container-button {
 	height: 10%;
 	text-align: center;
 	margin-top: 50px;
+	position: relative;
 
 }
 .coder {
@@ -71,9 +76,10 @@ a {
 	color: orange;
 	text-align: center;
 	font-size: 2em;
-	width: 100%;
+	width: auto;
 	transition: all .2s ease-in-out; 
 	padding: 5px;
+	overflow:hidden;
 }
 .coder:hover { transform: scale(1.1); 
 }
