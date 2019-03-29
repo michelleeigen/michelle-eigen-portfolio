@@ -29,15 +29,28 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-   
 }
 
 a {
  	color:lightgrey;
  	text-decoration: none;
+ }
+ .lines-container {
+ 	width: 100%;
+ 	height: 10%
+ }
+  .a-lines{
+ 	color:orange;
+ 	text-decoration: none;
+ 	float: right; top;
+ 	font-size: 4vw;
+ 	display: inline-block;
+ }
+ .a-lines:hover {
+ 	color: lightgrey;
 }
 .ux, .brackets {
-	color: red;
+	color: orange;
 }
  .a-button{display: block;
  	color:red;
@@ -55,7 +68,7 @@ a {
 }
 .coder {
 	font-family: Trebuchet MS, Helvetica, sans-serif;
-	color: red;
+	color: orange;
 	text-align: center;
 	font-size: 2em;
 	width: 100%;
@@ -66,8 +79,8 @@ a {
 }
 .a-button {
 	font-family: Trebuchet MS, Helvetica, sans-serif;
-	color: red;
-	border: 5px solid red;
+	color: orange;
+	border: 5px solid orange;
 	border-radius: 50%;
 	width: 120px;
     line-height: 120px;
