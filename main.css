@@ -44,9 +44,10 @@ a {
  	color:orange;
  	text-decoration: none;
  	float: right; top;
- 	font-size: 5vw;
+ 	font-size: 3em;
  	display: inline-block;
-	padding: 5px;
+	padding: 10px;
+	padding-right: 14px;
  }
  .a-lines:hover {
  	color: lightgrey;
