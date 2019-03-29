@@ -74,12 +74,15 @@ a {
 	font-size: 8vw;
 	font-weight: bold;
 	display: inline-block;
+	transition: all .2s ease-in-out; 
+
 
 }
 
 .a-button:hover{
-     background: darkgrey;
-     transform: scale(1.1); 
+    color: lightgrey;
+    border-color: lightgrey; 
+    transform: scale(1.1);
 }
 
  @media only screen and (max-width: 320px) {
