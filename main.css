@@ -44,14 +44,14 @@ a {
  	color:orange;
  	text-decoration: none;
  	float: right; top;
- 	font-size: 4vw;
+ 	font-size: 5vw;
  	display: inline-block;
 	padding: 5px;
  }
  .a-lines:hover {
  	color: lightgrey;
 }
-.ux, .brackets {
+.ux, .brackets, .eigen {
 	color: orange;
 }
  .a-button{display: block;
@@ -59,7 +59,7 @@ a {
  	text-decoration; none; 
  }
 .container-coder{
-	margin-top: 20%;
+	margin-top: 15%;
 	height: 15%;
 	width: 100%;
 	overflow:hidden;  
