@@ -57,7 +57,7 @@ a {
 	font-family: Trebuchet MS, Helvetica, sans-serif;
 	color: red;
 	text-align: center;
-	font-size: 6vw;
+	font-size: 2em;
 	width: 100%;
 	transition: all .2s ease-in-out; 
 	padding: 5px;
@@ -71,12 +71,11 @@ a {
 	border-radius: 50%;
 	width: 120px;
     line-height: 120px;
-	font-size: 8vw;
+	font-size: 40px;
+	padding; 50%;
 	font-weight: bold;
 	display: inline-block;
 	transition: all .2s ease-in-out; 
-
-
 }
 
 .a-button:hover{
