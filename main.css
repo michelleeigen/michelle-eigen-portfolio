@@ -16,7 +16,7 @@
    /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
 }
 body, html {
-  height: 70%;
+  height: 100%;
   vertical-align: middle;
 
 }
@@ -33,59 +33,55 @@ html {
 }
 
 a {
- 	color:white;
+ 	color:lightgrey;
  	text-decoration: none;
+}
+.ux, .brackets {
+	color: red;
 }
  .a-button{display: block;
  	color:red;
  	text-decoration; none; 
-
  }
-
 .container-coder{
-	width: auto;
-	height: 20%;
-	margin-top: 200px;
+	margin-top: 20%;
+	height: 15%;
 }
-.container-name-button {
-	height: 20%;
-}
-.name {
-	font-family: courier new;
-	color: white;
-	font-size: 1.5vw;
+.container-button {
+	height: 10%;
 	text-align: center;
-	padding: 40px;
-	}
-.a-button {
-	font-family: courier new;
-	color: red;
-	font-size: 1.7vw;
-	font-weight: bold;
-	padding: 1vw;
-	border: .2vw solid red;
-	border-radius: 6px;
-	display: inline-block;
-	margin-left: 50%;
-	transform: translateX(-50%);
-}
-.a-button:hover{
-     background: grey;
-}
-.ux, .brackets {
-	color: red;
-	
-}
+	margin-top: 50px;
 
+}
 .coder {
-	font-family: courier new;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
 	color: red;
 	text-align: center;
-	font-size: 4vw;
+	font-size: 6vw;
 	width: 100%;
 	transition: all .2s ease-in-out; 
+	padding: 5px;
 }
 .coder:hover { transform: scale(1.1); 
 }
+.a-button {
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	color: red;
+	border: 5px solid red;
+	border-radius: 50%;
+	width: 120px;
+    line-height: 120px;
+	font-size: 8vw;
+	font-weight: bold;
+	display: inline-block;
 
-	
+}
+
+.a-button:hover{
+     background: darkgrey;
+     transform: scale(1.1); 
+}
+
+ @media only screen and (max-width: 320px) {
+
+       body { font-size: 1em; }
