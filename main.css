@@ -15,71 +15,122 @@
 @media (max-width: 700px) {
    /* PUT CSS HERE TO ALTER WEBSITE TO SINGLE COLUMN */
 }
-body, html {
-  height: 100%;
-  vertical-align: middle;
-
+ body {
+    font-family: sans-serif, arial, helvetica;
 }
-
-html {
-	background:
-    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-	url(octopus.jpg);o-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-   
+/* Navigaton bullets styles
+ * --------------------------------------- */
+ #pp-nav li .active span, .pp-slidesNav .active span {
+    background: #bbb;
 }
-
-a {
- 	color:white;
- 	text-decoration: none;
+#pp-nav span, .pp-slidesNav span {
+    border-color: #bbb !important;
 }
-.ux, .brackets {
-	color: red;
+/* Sections
+	 * --------------------------------------- */
+ .section {
+    background-attachment: fixed;
+    background-size: auto 80%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
 }
- .a-button{display: block;
- 	color:red;
- 	text-decoration; none; 
- }
-.container-coder{
-	margin-top: 30%;
-	height: 15%;
+#section1 {
+    background-image: url(smoke.jpg)
 }
-.container-button {
-	height: 10%;
-
+#section2 {
+    background-image: url(orange.jpg)
 }
-.coder {
-	font-family: Trebuchet MS, Helvetica, sans-serif;
-	color: red;
-	text-align: center;
-	font-size: 10vw;
-	width: 100%;
-	transition: all .2s ease-in-out; 
-	padding: 5px;
+#section3 {
+    background-image: url(blue.jpg)
 }
-.coder:hover { transform: scale(1.1); 
+#section4 .content {
+    top: 100%;
+    position: absolute;
+    left: 0;
 }
-.a-button {
-	font-family: Trebuchet MS, Helvetica, sans-serif;
-	color: red;
-	font-size: 90%;
-	font-weight: bold;
-	padding: 6px;
-	border: 2px solid red;
-	border-radius: 6px;
-	display: inline-block;
-	transition: all 2.s ease-in-out;
-	display: inline-block;
+/* Arrow
+	 * --------------------------------------- */
+ #arrow {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    outline: 0;
+    z-index: 100;
+    color: #BBB;
+    background: transparent;
+    -moz-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -o-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -webkit-transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
+    transition: all 0.2s cubic-bezier(0.7, 0.01, 0.3, 1);
+    font: 36px Heiti, 'Lucida Grande', Arial;
+    font-weight: bold;
 }
-
-.a-button:hover{
-     background: grey;
-     transform: scale(1.1); 
+#arrow span {
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    -moz-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -o-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
-
- @media only screen and (max-width: 320px) {
-
-       body { font-size: 1em; }
+#arrow:hover {
+    background: #EC008C;
+}
+#arrow:hover span {
+    top: 0;
+    color: #FFF;
+}
+/* Intro texts
+	 * --------------------------------------- */
+ .intro {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    width: 100%;
+}
+.intro h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #000;
+}
+#section4 .intro {
+    color: #000;
+}
+/* Content page
+	 * --------------------------------------- */
+ .header {
+    padding-top: 80px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+}
+.header p {
+    color: #f2f2f2;
+    font-size: 1.7em;
+}
+.page {
+    width: 80%;
+    margin: 60px auto;
+    background:white;
+    padding: 60px;
+    -webkit-box-sizing: border-box;
+    /* Safari<=5 Android<=3 */
+    -moz-box-sizing: border-box;
+    /* <=28 */
+    box-sizing: border-box;
+}
+.page p {
+    font-style: 12px;
+    margin: 20px 0 0 0;
+    line-height: 1.35em;
+    color: #333;
+}
